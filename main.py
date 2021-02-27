@@ -1,5 +1,5 @@
 """  For Education purposes - And those who are beginner to Machine learning. The code is well commented.
-Neural Network Implementation in Python equivalent to the one in C++. 
+Neural Network Implementation in Python for solving XOR problem, equivalent to the one in C++. 
 Author: Omar T. Mohammed
 Date: 27-Feb-2021
 """
