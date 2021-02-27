@@ -154,7 +154,7 @@ One epoch is comprised of one or more batches, based on the chosen batch size an
 # The training process will run for a fixed number of iterations through the training dataset (train_data,
 # train_targets) called epochs, that we must specify using the epochs argument. We must also set the number of
 # dataset rows that are considered before the model weights are updated within each epoch, called the batch size and
-# set using the batch_size argument. #we specify the epochs as 30 with a batch size 1,  These configurations was
+# set using the batch_size argument. #we specify the epochs as 11 with a batch size 1,  These configurations was
 # chosen experimentally by trial and error. We wanted to train the model enough so that it learns a good (or good
 # enough) mapping of rows of input data to the output classification. The model will always have some error,
 # but the amount of error will level out after some point for a given model configuration. This is called model
