@@ -8,4 +8,4 @@ pip install tensorflow
 This repository is created for machine learning begginers, each code is fully commented, please read the comments carefully to have a clear idea of how neural network works.
 
 ```bash
-python XOR_Gate
+python main.py
