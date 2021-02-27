@@ -1,4 +1,5 @@
-"""Neural Network Implementation in Python equivalent to the one in C++.
+"""  For Education purposes - And those who are beginner to Machine learning. The code is well commented.
+Neural Network Implementation in Python equivalent to the one in C++. 
 Author: Omar T. Mohammed
 Date: 27-Feb-2021
 """
@@ -10,7 +11,7 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-
+""" The random library  returns a random floating number between a specific range. """
 import random
 
 """Import Tensorflow library, TensorFlow is an end-to-end open source platform for machine learning. " \
@@ -61,6 +62,8 @@ test_targets = np.array([c])
 """Loop through 500 numbers for training starting from 1 with each iteration append a random values to train_data 
 array respectively, after that append the XOR result of a and b to train_target array. """
 for i in range(1, 500, 1):
+    
+    # bool(random.getrandbits(1)) returns a random boolean number or in another words each time it returns either 1 or 0.
     a = bool(random.getrandbits(1))
     b = bool(random.getrandbits(1))
     c = a ^ b
