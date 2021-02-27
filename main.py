@@ -10,7 +10,7 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-
+# Random library Returns a random floating number between a specific range i.e return a random number between 0 and 1.
 import random
 
 """Import Tensorflow library, TensorFlow is an end-to-end open source platform for machine learning. " \
