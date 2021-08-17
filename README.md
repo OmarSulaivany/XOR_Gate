@@ -12,6 +12,7 @@ This repository is created for machine learning begginers, each code is fully co
 
 ```bash
 python main.py
+```
 
 
 # Web scrapping Task.
